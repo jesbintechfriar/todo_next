@@ -63,7 +63,7 @@ export default function TodoView() {
         <div className={styles.inputContainer}>
           <input
             type="text"
-            placeholder="write your next task"
+            placeholder="write your next"
             value={newTask}
             onChange={(e) => setNewTask(e.target.value)}
             onKeyDown={handleKeyPress}
