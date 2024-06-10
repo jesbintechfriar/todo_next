@@ -54,7 +54,6 @@ export default function TodoView() {
       <div className={styles.container}>
         <div className={styles.header}>
           <div className={styles.textCol}>
-            <h1>Todo Done</h1>
           </div>
           <div className={styles.taskCounter}>
             {completedTasks}/{tasks.length}
