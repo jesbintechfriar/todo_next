@@ -47,7 +47,9 @@ export default function TodoView() {
   };
 
   // Calculate the number of completed tasks
-  const completedTasks = tasks.filter((task) => task.isCompleted).length;
+  const completed
+  Tasks = tasks.filt
+  er((task) => task.isCompleted).length;
 
   return (
     <div className={styles.main}>
